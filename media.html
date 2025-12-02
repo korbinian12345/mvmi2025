@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Media</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/campfire.css">
+        <script src="js/volume.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <p class="back"><a href="index.html#back">&larr; back</a></p>
+        </header>
+        <main>
+            <button id="muteButton" class="muteButton"></button>
+            <video class="campfireVideo" width="100%" height="auto" muted autoplay loop>
+                <source src="recources/video/campfire.mp4" type="video/mp4">
+                Ihr Browser unterstützt das Video-Element nicht.
+            </video>
+            <audio class="campfireAudio" muted autoplay loop>
+                <source src="recources/audio/fireplaceSound.mp3" type="audio/mpeg">
+            </audio>
+        </main>
+        <footer>
+            <p>© 2024 Korbinian Aubrunner <a href="impressum.html">Impressum</a> <a href="kontakt.html">Kontakt</a></p>
+        </footer>
+    </body>
+</html>
