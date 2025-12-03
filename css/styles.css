@@ -298,6 +298,13 @@ footer a:hover {
         text-decoration: underline;
         color: #FAF0E6;
     }
+    nav ul li a:active {
+        color: #FAF0E6;
+    }
+    main p a:active {
+        text-decoration: underline;
+        color: #FAF0E6;
+    }
     .linkNoDisplay {
         display: none;
     }
