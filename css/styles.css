@@ -249,10 +249,22 @@ footer a:hover {
     nav ul li a:hover {
         color: #FAF0E6;
     }
+    /* hat nicht funktioniert
+    nav ul li a:hover {
+        color: #FAF0E6;
+    }
     main p a:hover {
         text-decoration: underline;
         color: #FAF0E6;
     }
+    nav ul li a:active {
+        color: #FAF0E6;
+    }
+    main p a:active {
+        text-decoration: underline;
+        color: #FAF0E6;
+    }
+    */
     .linkNoDisplay {
         display: none;
     }
@@ -291,6 +303,7 @@ footer a:hover {
         padding: 12px 15px;
         font-size: 1rem;
     }
+    /* hat nicht funktioniert
     nav ul li a:hover {
         color: #FAF0E6;
     }
@@ -305,6 +318,7 @@ footer a:hover {
         text-decoration: underline;
         color: #FAF0E6;
     }
+    */
     .linkNoDisplay {
         display: none;
     }
