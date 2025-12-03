@@ -63,7 +63,6 @@ nav ul li a:hover {
     text-decoration-thickness: 2px;
     text-decoration-color: lemonchiffon;
     color: lemonchiffon;
-
 }
 /* Banner Styles */
 #Banner {
@@ -247,6 +246,13 @@ footer a:hover {
     nav ul li a {
         padding: 12px 15px;
     }    
+    nav ul li a:hover {
+        color: #FAF0E6;
+    }
+    main p a:hover {
+        text-decoration: underline;
+        color: #FAF0E6;
+    }
     .linkNoDisplay {
         display: none;
     }
@@ -284,6 +290,13 @@ footer a:hover {
     nav ul li a {
         padding: 12px 15px;
         font-size: 1rem;
+    }
+    nav ul li a:hover {
+        color: #FAF0E6;
+    }
+    main p a:hover {
+        text-decoration: underline;
+        color: #FAF0E6;
     }
     .linkNoDisplay {
         display: none;
